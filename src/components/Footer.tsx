@@ -51,12 +51,22 @@ const Footer = () => {
           {/* Social Media */}
           <div>
             <h4 className="font-bold text-lg mb-4">Follow Us</h4>
-            <div className="flex gap-4 mb-4">
-              <a href="https://youtube.com" target="_blank" className="text-red-500 hover:text-primary transition text-2xl"><FaYoutube /></a>
-              <a href="https://facebook.com" target="_blank" className="text-blue-500 hover:text-primary transition text-2xl"><FaFacebook /></a>
-              <a href="https://twitter.com" target="_blank" className="text-blue-400 hover:text-primary transition text-2xl"><FaTwitter /></a>
-              <a href="https://instagram.com" target="_blank" className="text-pink-500 hover:text-primary transition text-2xl"><FaInstagram /></a>
-              <a href="https://wa.me/7357040303" target="_blank" className="text-green-500 hover:text-primary transition text-2xl"><FaWhatsapp /></a>
+            <div className="flex gap-3 mb-4 flex-wrap">
+              <a href="https://youtube.com/@lucky_sir_jaipur?si=Zy4ibOkiQZV4M7oQ" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-primary transition text-2xl" title="YouTube">
+                <FaYoutube />
+              </a>
+              <a href="https://instagram.com/luckysir0303?igsh=OG16eXVoeDd1M2Ft" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-primary transition text-2xl" title="Instagram">
+                <FaInstagram />
+              </a>
+              <a href="https://chat.whatsapp.com/JxQbQOZLcl1GRmPfRZrunS" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-primary transition text-2xl" title="WhatsApp Group">
+                <FaWhatsapp />
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-primary transition text-2xl" title="Facebook">
+                <FaFacebook />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-primary transition text-2xl" title="Twitter">
+                <FaTwitter />
+              </a>
             </div>
           </div>
         </div>
